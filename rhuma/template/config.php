@@ -12,6 +12,7 @@ if (isset($_GET['page'])) {
     }
 
     elseif ($_GET['page']=="contact") {
+        include "insertdata.php";
         include "first_contact.php";
     }
 
@@ -19,8 +20,10 @@ if (isset($_GET['page'])) {
         include "produit.php";
     }
 
-    elseif ($_GET['page']=="blog") {
-        include "blog.php";
+    elseif ($_GET['page']=="panier") {
+        include "panier.php";
+        include "db.php";
+        include "cart.php";
     }
  
     elseif ($_GET['page']=="about") {
@@ -28,7 +31,11 @@ if (isset($_GET['page'])) {
         
         
     }
-
+    elseif ($_GET['page']=="inscription") {
+        include "inscription.php";
+        
+        
+    }
 
 }
 

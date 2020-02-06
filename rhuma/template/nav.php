@@ -17,13 +17,16 @@
                         <a href="index.php?page=produits">NOS PRODUITS</a>
                     </li>
                     <li>
-                        <a href="index.php?page=blog">BLOG</a>
+                        <a href="index.php?page=panier">PANIER</a>
                     </li>
                     <li>
                         <a href="index.php?page=contact">CONTACT</a>
                     </li>
                     <li>
                         <a href="index.php?page=about">CONNEXION</a>
+                    </li>
+                    <li>
+                        <a href="index.php?page=inscription">INSCRIPTION</a>
                     </li>
                 </ul>
             </div>
